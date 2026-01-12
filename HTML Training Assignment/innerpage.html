@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
 
     <link
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
@@ -315,7 +318,7 @@
 
                                         <div class="d-flex gap-4">
                                                 <div class="col-5  ms-custom mb-3 mt-3">
-                                                <input type="text" class="form-control" placeholder="Password">
+                                                <input type="password" class="form-control" placeholder="Password">
                                                 </div>
                                                 <div class="col-5  mb-3 mt-3">
                                                     <select class="form-control   fw-light  " >
@@ -331,24 +334,24 @@
                                           <h4 class="form-header">Three Column</h4>
                                           <div class="d-flex">
 
-                                                <div class=" ms-custom mb-3 focus-border mt-3">
+                                                <div class=" ms-custom mb-3  mt-3">
                                                     <label for="input2" class="ms-2 position-absolute" style="margin-top: -0.25rem !important">
-                                                        <span class="h9 small bg-white  px-1">Focus</span>
+                                                        <span class="h9 small bg-white text-danger  px-1">Focus</span>
                                                     </label>
-                                                    <input type="text" class="form-control focus-border mt-2" id="input1">  
+                                                    <input type="text" class="form-control border-danger mt-2" id="input1">  
                                                 </div>
 
                                                 <div class=" ms-custom mb-3 mt-3">
                                                     <label for="input3" class="ms-2 position-absolute" style="margin-top: -0.25rem !important">
                                                         <span class="h9 small bg-white text-muted px-1">Password</span>
                                                     </label>
-                                                    <input type="text" class="form-control mt-2" id="input3">  
+                                                    <input type="password" class="form-control mt-2" id="input3">  
                                                 </div>
                                                 <div class=" ms-custom mb-3 mt-3 ">
                                                     <label for="input4" class="ms-2 position-absolute"   style="margin-top: -0.25rem !important">
                                                         <span class="h9 small bg-white text-muted px-1">Disabled</span>
                                                     </label>
-                                                    <input type="text" class="form-control mt-2 fw-light" value="John Doe" id="input4">    
+                                                    <input type="text" class="form-control mt-2 fw-light " value="John Doe" id="input4">    
                                             </div>
 
                                           </div>
@@ -360,9 +363,9 @@
 
                                                 <div class="col-3  mb-3 mt-3 ">
                                                     <label for="input5" class="ms-2 position-absolute "   style="margin-top: -0.25rem !important">
-                                                        <span class="h9 small bg-white text-muted px-1">Designation</span>
+                                                        <span class="h9 small bg-white px-1 text-danger">Designation</span>
                                                     </label>
-                                                    <input type="text" class="form-control mt-2 focus-border fw-light " value="UI designer" id="input5">
+                                                    <input type="text" class="form-control mt-2 focus-border border-danger fw-light " value="UI designer" id="input5">
                                                 </div>
 
                                                 <div class="col-3  mb-3 mt-4 ">
@@ -373,7 +376,7 @@
                                                     <label for="input4" class="ms-2 position-absolute"   style="margin-top: -0.25rem !important">
                                                         <span class="h9 small bg-white text-muted px-1">Disabled</span>
                                                     </label>
-                                                    <input type="text" class="form-control mt-2 fw-light" value="John Doe" id="input4"> 
+                                                    <input type="text" class="form-control mt-2 fw-light order-dotted" value="John Doe" id="input4"> 
                                                 </div>
 
                                                 <div class="col-3  mb-3 mt-4">
@@ -399,13 +402,13 @@
                                             <h5 class=" ms-custom mt-4 mb-4">Radio button</h5>
                                             <div class="d-flex">
                                                     <div class="form-check ms-custom">
-                                                            <input class="form-check-input " type="radio" name="exampleRadios" id="radio1" value="option1" >
+                                                            <input class="form-check-input" type="radio" name="exampleRadios" id="radio1" value="option1" >
                                                             <label class="form-check-label" for="radio1">
                                                                 Option 1 
                                                             </label>
                                                     </div>
-                                                    <div class="form-check ms-custom">
-                                                            <input class="form-check-input bg-danger btn-border" type="radio" name="exampleRadios" id="radio2" value="option2" checked>
+                                                    <div class="form-check ms-custom ">
+                                                            <input class="form-check-input bg-danger border-danger " type="radio" name="exampleRadios" id="radio2" value="option2" checked>
                                                             <label class="form-check-label" for="radio2">
                                                             Option 2
                                                             </label>
@@ -473,7 +476,7 @@
 
                                                 <ul class="nav nav-tabs ms-custom custom-tabs">
                                                         <li class="nav-item ">
-                                                          <a class="nav-link active" href="#">Tab 1</a>
+                                                          <a class="nav-link active " href="#">Tab 1</a>
                                                         </li>
                                                         <li class="nav-item">
                                                           <a class="nav-link" href="#">Tab 2</a>

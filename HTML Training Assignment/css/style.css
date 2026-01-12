@@ -328,7 +328,7 @@
     display:flex;
     flex-direction: column;
     margin-left: 30px;
-    height:347.48px;
+    /* height:347.48px; */
 }
 .pie-header{
    
@@ -340,6 +340,18 @@
     font-family: "Roboto";
     color:#3E3E3E;
 }
+.legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  /* Custom orange (Bootstrap has no default orange) */
+  .bg-orange {
+    background-color: #fd7e14;
+  }
+  
 
 
 
