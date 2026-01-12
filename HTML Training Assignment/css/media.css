@@ -1,0 +1,7 @@
+/* Hide left image on small screens */
+@media (max-width: 768px) {
+    #left-part {
+      display: none;
+    }
+  }
+  
