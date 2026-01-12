@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+            rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+ 
+
+        <!-- HEADER SECTION    -->
+        <!-- <div class="header">
+            <div class="left-header">
+                        <img src="images/Assigment_Assets/menu-bar.svg" alt="menu"  class="menu-icon">
+                        <img src="images/Assigment_Assets/header-logo.svg" alt="menu"  class="header-logo">
+            </div>
+            <div class="middle-header">
+                        <img src="images/Assigment_Assets/search-icon.svg" alt="search-icon" class="search-icon">
+                        <div class="search">Search</div>
+            </div>
+            <div class="right-header">
+                <img src="images/Assigment_Assets/notification-icon.svg" class="notification" alt="notification" >
+                <img src="images/Assigment_Assets/profile.png" class="profile" alt="profile">
+                <div class="user-name">John Doe</div>
+                <img src="images/Assigment_Assets/downward-arrow.svg" class="downward-icon" alt="downwartd-icon">
+            
+            </div>
+        </div> -->
+
+
+            
+<!-- NAVBAR -->
+         <nav class="navbar navbar-expand-lg bg-white border-bottom px-4 " >
+            <div class="container-fluid  flex-nowrap gap-5 ">
+ <!-- LEFT -->
+             <div class="d-flex align-items-center gap-3">
+                <img src="images/Assigment_Assets/menu-bar.svg" id="menuToggle" alt="menu"  class="menu-icon ">
+                <a class="navbar-brand d-flex align-items-center " href="#">
+                    <img src="images/Assigment_Assets/header-logo.svg" alt="menu"  class="header-logo me-3">
+                </a>
+             </div>
+             <!-- middle -->
+            
+                     <div class="input-group mx-4 d-none d-lg-flex flex-grow-1
+                     w-50 w-xl-100"
+                             style="max-width: 600px;">
+                            <span class="input-group-text border-0 ">
+                                <img src="images/Assigment_Assets/search-icon.svg"
+                                    class="search-icon" >
+                            </span>
+                            <input type="search"
+                                    class="form-control rounded-pill border"
+                                    placeholder="Search">
+                        </div>
+                        <!-- right -->
+                        <div class="d-flex align-items-center gap-3">
+                            <img src="images/Assigment_Assets/notification-icon.svg" class="notification" alt="notification" >
+                            <img src="images/Assigment_Assets/profile.png" class="profile" alt="profile">
+                            <div class="user-name">John Doe</div>
+                            <img src="images/Assigment_Assets/downward-arrow.svg" class="downward-icon" alt="downwartd-icon">
+        
+                         </div>      
+
+            </nav>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- lower body -->
+        <div class="lower-body">
+                    <!-- <div class="sidebar">
+                                <div  class="sidebar-items">
+                                    <img src="images/Assigment_Assets/dashboard-active.svg" >
+                                    <span> Dashboard</span>
+                                </div>
+                                <div class="sidebar-items">
+                                    <img src="images/Assigment_Assets/graph-default.svg">
+                                    <span>Analysis</span>
+                                </div>
+                                <div class="sidebar-items">
+                                    <img src="images/Assigment_Assets/inbox-default.svg">
+                                    <span>Inbox</span>
+                                </div>
+                                <div class="sidebar-items">
+                                    <img src="images/Assigment_Assets/clock-default.svg">
+                                    <span>History</span>
+                                </div>
+                                <div class="sidebar-items">
+                                    <img src="images/Assigment_Assets/user-default.svg">
+                                    <span>Users</span>
+                                </div>
+                                <div class="sidebar-items">
+                                    <img src="images/Assigment_Assets/maintenance-default.svg">
+                                    <span>Maintenance</span>
+                                </div>
+                                <div class="sidebar-items">
+                                    <img src="images/Assigment_Assets/setting-default.svg">
+                                    <span>Setting</span>
+                                </div> -->
+                            <!-- </div> -->
+
+
+
+
+                                <div class="d-flex">
+
+                                    <!-- SIDEBAR -->
+                                    <aside id="sidebar"
+                                           class="bg-white border-end vh-100 p-3
+                                                  d-none d-lg-block"
+                                           style="width:240px;">
+                                  
+                                      <ul class="nav flex-column gap-2">
+                                            <li class="nav-item">
+                                                            <a class="nav-link active d-flex align-items-center gap-3 text-dark" href="http://127.0.0.1:5500/HTML%20Training%20Assignment/newdashboard.html#">
+                                                                <img src="images/Assigment_Assets/dashboard-default.svg" >
+                                                                <span>Dashboard</span> 
+                                                                </a>
+                                            </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link  d-flex align-items-center gap-3 text-danger" href="http://127.0.0.1:5500/HTML%20Training%20Assignment/innerpage.html#">  
+                                                <img src="images/Assigment_Assets/graph-active.svg">
+                                                     <span>Analysis </span>
+                                            </a>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                          <a class="nav-link  d-flex align-items-center gap-3 text-dark" href="#">
+                                            <img src="images/Assigment_Assets/inbox-default.svg">
+                                            <span>Inbox</span>
+                                            </a>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <a class="nav-link d-flex align-items-center gap-3 text-dark" href="#">
+                                                <img src="images/Assigment_Assets/clock-default.svg">
+                                                <span> History</span>
+                                           </a>
+                                        </li>
+            
+                                        <li class="nav-item">
+                                            <a class="nav-link d-flex align-items-center gap-3 active text-dark" href="#">
+                                                <img src="images/Assigment_Assets/user-default.svg">
+                                                <span>Users</span>
+                                                </a>
+                                          </li>
+            
+            
+                                          <li class="nav-item">
+                                            <a class="nav-link d-flex align-items-center gap-3 active text-dark" href="#">
+                                                <img src="images/Assigment_Assets/maintenance-default.svg">
+                                                <span>Maintenance</span>
+                                            </a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link d-flex align-items-center gap-3 active text-dark" href="#">
+                                                <img src="images/Assigment_Assets/setting-default.svg">
+                                                <span>Setting</span></a>
+                                          </li>
+                                      </ul>
+                                  
+                                    </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                    <!-- <div class="main-content">
+                        <div class="content-header">Analysis</div>
+                        <div class="form">
+                            <div class="form-header">One Column</div>
+                            <div class="form-field">
+                                
+                                <div class="mt-3 ms-custom mb-4"> 
+                                    <input type="text" class="form-control name-field" placeholder="Name">
+                                </div>
+
+                                <div class="mb-4 ms-custom ">
+                                        <select class="form-control fw-lighter dropdown" >
+                                        <option>Dropdown</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        </select>
+                                </div>
+
+                                <div class="mb-4 ms-custom">
+                                    <textarea
+                                      class="form-control multi-line fw-light"
+                                      rows="4"
+                                      placeholder="Multiline"
+                                      name="Multiline">Multiple line
+                                    </textarea>
+                                  </div>
+                                  
+                              
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="main-content">
+                        
+                        <h1  class="content-header ms-custom">Analysis</h1>
+                                    <form>
+                                        <h4 class="form-header">One coloumn</h4>
+                                        <div class="form-group mt-3 mb-3 ms-custom col-10 allborders">                     
+                                        <input type="email" class="form-control "  placeholder="Name">
+                                        </div>
+
+                                        <div class="form-group mb-3 ms-custom col-10 allborders ">
+                                        <select class="form-control fw-light " >
+                                            <option>Dropdown</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                        </div>
+                                        
+                                        <div class="form-group mb-3 ms-custom col-10 allborders">
+                                        <textarea class="form-control  my-input fw-light "  placeholder="Multiline" rows="4"></textarea>
+                                        </div>
+                                    </form>
+
+                                    <form>
+                                        <h4 class="form-header">Two Column</h4>
+                                        <div class="d-flex gap-4  ">
+                                          <div class="col-5 mb-3 mt-3  ms-custom ">
+                                            <input type="text" class="form-control"  placeholder="First name">
+                                          </div>
+
+                                          <div class=" col-5 mb-3 mt-3">
+                                            <label for="input1" class="ms-2 position-absolute" style="margin-top: -0.70rem !important">
+                                                <span class="h9 small bg-white text-muted px-1">Username</span>
+                                            </label>
+                                            <input type="text" class="form-control fw-light" id="input1" value="john doe" placeholder="Last name">
+                                          </div>
+                                        </div>
+
+                                        <div class="d-flex gap-4">
+                                                <div class="col-5  ms-custom mb-3 mt-3">
+                                                <input type="text" class="form-control" placeholder="Password">
+                                                </div>
+                                                <div class="col-5  mb-3 mt-3">
+                                                    <select class="form-control   fw-light  " >
+                                                        <option>Dropdown</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                    </select>
+                                                </div>
+                                        </div>
+
+                                          <h4 class="form-header">Three Column</h4>
+                                          <div class="d-flex">
+
+                                                <div class=" ms-custom mb-3 focus-border mt-3">
+                                                    <label for="input2" class="ms-2 position-absolute" style="margin-top: -0.25rem !important">
+                                                        <span class="h9 small bg-white  px-1">Focus</span>
+                                                    </label>
+                                                    <input type="text" class="form-control focus-border mt-2" id="input1">  
+                                                </div>
+
+                                                <div class=" ms-custom mb-3 mt-3">
+                                                    <label for="input3" class="ms-2 position-absolute" style="margin-top: -0.25rem !important">
+                                                        <span class="h9 small bg-white text-muted px-1">Password</span>
+                                                    </label>
+                                                    <input type="text" class="form-control mt-2" id="input3">  
+                                                </div>
+                                                <div class=" ms-custom mb-3 mt-3 ">
+                                                    <label for="input4" class="ms-2 position-absolute"   style="margin-top: -0.25rem !important">
+                                                        <span class="h9 small bg-white text-muted px-1">Disabled</span>
+                                                    </label>
+                                                    <input type="text" class="form-control mt-2 fw-light" value="John Doe" id="input4">    
+                                            </div>
+
+                                          </div>
+                                          
+                                          
+                                          
+                                          <h4 class="form-header">Four coloumn</h4>
+                                          <div class="d-flex  w-75 gap-4 ms-custom">
+
+                                                <div class="col-3  mb-3 mt-3 ">
+                                                    <label for="input5" class="ms-2 position-absolute "   style="margin-top: -0.25rem !important">
+                                                        <span class="h9 small bg-white text-muted px-1">Designation</span>
+                                                    </label>
+                                                    <input type="text" class="form-control mt-2 focus-border fw-light " value="UI designer" id="input5">
+                                                </div>
+
+                                                <div class="col-3  mb-3 mt-4 ">
+                                                    <input type="text" class="form-control" placeholder="Name">
+                                                </div>
+
+                                                <div class="col-3 mb-3 mt-3 ">
+                                                    <label for="input4" class="ms-2 position-absolute"   style="margin-top: -0.25rem !important">
+                                                        <span class="h9 small bg-white text-muted px-1">Disabled</span>
+                                                    </label>
+                                                    <input type="text" class="form-control mt-2 fw-light" value="John Doe" id="input4"> 
+                                                </div>
+
+                                                <div class="col-3  mb-3 mt-4">
+                                                    <input type="text" class="form-control" placeholder="Name">
+                                                </div>
+                                          </div>
+                                          
+                                          
+                                          <h2 class="form-header">Other Design Elements</h2>
+                                          <h5 class="ms-custom mt-4 mb-4">File upload</h6>
+                                                <div class="input-group mb-3 ms-custom">
+                                                        <div class="input-group-prepend ">
+                                            
+                                                            <button class="btn px-4 py-1 btn-outline-danger rounded-pill " type="button">
+                                                                <img src="images/Assigment_Assets/cloud-upload-icon.svg " class="me-1 "  alt="cloud"> 
+                                                                <span>Upload</span>
+                                                            </button>
+                                                            <span class="text-muted small no-item-text">
+                                                                No item selected
+                                                            </span>
+                                                        </div>
+                                                </div>
+                                            <h5 class=" ms-custom mt-4 mb-4">Radio button</h5>
+                                            <div class="d-flex">
+                                                    <div class="form-check ms-custom">
+                                                            <input class="form-check-input " type="radio" name="exampleRadios" id="radio1" value="option1" >
+                                                            <label class="form-check-label" for="radio1">
+                                                                Option 1 
+                                                            </label>
+                                                    </div>
+                                                    <div class="form-check ms-custom">
+                                                            <input class="form-check-input bg-danger btn-border" type="radio" name="exampleRadios" id="radio2" value="option2" checked>
+                                                            <label class="form-check-label" for="radio2">
+                                                            Option 2
+                                                            </label>
+                                                    </div>
+                                            </div>
+                                            <h5 class=" ms-custom mt-4 mb-4">Check button</h5>
+                                            <div class="d-flex">
+                                                <div class="form-check ms-custom">
+                                                        <input class="form-check-input checkbox-grey" type="checkbox" value="" id="defaultCheck1" checked>
+                                                        <label class="form-check-label" for="defaultCheck1">
+                                                            Option 1
+                                                        </label>
+                                                </div>
+                                                <div class="form-check ms-custom">
+                                                        <input class="form-check-input checkbox-red" type="checkbox" value="" id="defaultCheck1">
+                                                        <label class="form-check-label" for="defaultCheck1">
+                                                        Option 2
+                                                        </label>
+                                                </div>
+                                            </div>
+
+                                            <h5 class=" ms-custom mt-4 mb-4">Snackbar</h5>
+                                            <div class="d-flex gap-4 ">
+                                                
+                                                    <div class=" col-5 ms-custom ">
+                                                        <div class="alert border-danger text-danger alert-outline-danger d-flex align-items-center">
+                                                        <img src="images/Assigment_Assets/error-icon.svg">
+                                                            This is an error Message!
+                                                        </div>
+                                                     </div>
+
+                                                        <div class=" col-5 " >
+                                                            <div class="alert alert-outline-info text-info border-info d-flex align-items-center">
+                                                               <img src="images/Assigment_Assets/info-icon.svg">
+                                                                    This is an information message
+                                                            </div>
+                                                        </div>
+                                                </div>
+
+
+                                                <div class="d-flex gap-4" >
+                                                    <div class=" col-5 ms-custom ">
+                                                        <div class="alert border-warning text-warning alert-outline-warning d-flex align-items-center">
+                                                        <img src="images/Assigment_Assets/warning-icon.svg">
+                                                            This is a warning Message!
+                                                        </div>
+                                                        </div>
+                                              
+                                              
+                                                            <div class=" col-5 " >
+                                                            <div class="alert alert-outline-success  text-success border-success d-flex align-items-center">
+                                                                <img src="images/Assigment_Assets/success-icon.svg">
+                                                                This is a success message!
+                                                            </div>
+                                                            </div>
+                                                 </div>
+
+                                                <h5 class="ms-custom mt-4 mb-4">Call to action</h6>
+                                                <button type="button" class="btn btn-danger ms-custom fw-semibold rounded-pill px-4 py-2">Primary</button>
+
+                                                <button type="button" class="btn btn-outline-danger fw-semibold ms-custom rounded-pill px-4 py-2">Secondary</button>
+                                                
+
+                                                <h5 class="ms-custom mt-4 mb-4">Tabs</h6>
+
+                                                <ul class="nav nav-tabs ms-custom custom-tabs">
+                                                        <li class="nav-item ">
+                                                          <a class="nav-link active" href="#">Tab 1</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">Tab 2</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                          <a class="nav-link" href="#">Tab 3</a>
+                                                        </li>
+                                                        
+                                                </ul>
+
+
+
+                                                <div class="ms-custom mt-4 mb-4 w-75">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eos consequatur non, architecto rerum in, at aliquid asperiores molestias alias recusandae voluptatem incidunt earum! Et reprehenderit ipsa debitis ducimus expedita? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quia illo laudantium, quae blanditiis assumenda nisi nemo, dolores culpa corrupti eos in, aliquid repellendus voluptate impedit dignissimos. Nihil, voluptatibus dolorum.
+
+                                                </div>
+                                                
+                                              
+
+
+
+
+                                          
+
+                                      </form>
+
+
+
+
+
+
+                                      
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+        </div>
+       
+        
+
+
+
+
+
+
+        <script src="js/custom.js"></script>
+
+</body>
+</html>
